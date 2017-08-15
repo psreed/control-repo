@@ -65,7 +65,10 @@ mod 'jriviere/windows_ad', '0.3.2'
 mod 'crayfishx-purge', '1.2.0'
 mod 'puppet-splunk', '5.1.0'
 mod 'jpadams-puppet_vim_env', '2.4.1'
-mod 'kschu91-gogs', '1.1.0'
+mod 'gogs',
+  :git => 'https://github.com/ipcrm/puppet-gogs.git',
+  :ref => '8bf6b7320156c902ae80163c7d0fcf68f7b9657f'
+
 mod 'bodgit-rngd', '2.0.0'
 mod 'jonono-auditpol', '0.1.2'
 mod 'nexcess-auditd', '2.0.0'
