@@ -1,0 +1,2 @@
+tomcat:
+  port: 80
